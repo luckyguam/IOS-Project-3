@@ -9,6 +9,7 @@ import UIKit
 
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    @IBOutlet var Buttons:[UIButton]!
 
   var window: UIWindow?
 

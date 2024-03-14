@@ -11,7 +11,7 @@
 		9926AB2629DFAE1400860532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB2529DFAE1400860532 /* SceneDelegate.swift */; };
 		9926AB2B29DFAE1400860532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2929DFAE1400860532 /* Main.storyboard */; };
 		9926AB2D29DFAE1400860532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2C29DFAE1400860532 /* Assets.xcassets */; };
-		9926AB3029DFAE1400860532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */; };
+		9926AB3029DFAE1400860532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (Qlabel, ); }; };
 		9926AB3B29DFAE1500860532 /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB3A29DFAE1500860532 /* TriviaTests.swift */; };
 		9926AB4529DFAE1500860532 /* TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB4429DFAE1500860532 /* TriviaUITests.swift */; };
 		9926AB4729DFAE1500860532 /* TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */; };
@@ -187,6 +187,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					Qlabel,
+				);
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
